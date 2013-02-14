@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Cabin);
+
+body {
+  font-family: 'Cabin', sans-serif;
+}
+
+#content, #content_form {
+  width: 938px;
+  border: 1px solid black;
+  margin-left: 2.25em;
+  padding: .35em;
+
+  -webkit-box-shadow: 0 0 5px #888;
+  border-radius: 5px;
+  font-family: 'Cabin', sans-serif;
+}
+
+
+/*#books {
+    border: 1px solid black;
+    float: left;
+    -webkit-box-shadow: 0 0 5px #888;
+    border-radius: 5px;
+      display: block;
+  float: left;
+  padding: 1em;
+  width: 150px
+}
+
+#recipes {
+    border: 1px solid black;
+    float: right;
+    -webkit-box-shadow: 0 0 5px #888;
+    border-radius: 5px;
+display: block;
+}*/
+
+.small {
+  font-size: 50%;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    margin: 0 auto;
+    font-size: 32px;
+    padding-top: .25em;
+    padding-left: 1em
+}
+
+h2 {
+    font-size: 22px;
+    margin: .5em 0 .5em .5em;
+}
+
+img {
+  width: 100px;
+  border: 100px;
+}
+
+#recipes_left {
+  display:block;
+  float:left;
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  display: block;
+}
+
+nav {
+  background-color: #E2E1E8;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 50px;
+  width: 960px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+nav a {
+  margin-left: 10px
+}

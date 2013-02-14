@@ -1,0 +1,12 @@
+<h2>Ingredients</h2>
+<div id='content'>
+<% @ingredients.each do |ingredient| %>
+  <ul >
+      <li>Name: <%= ingredient.name %></li>
+      <li>Measurement: <%= ingredient.measurement %></li>
+      <li>Cost: <%= number_to_currency(ingredient.cost) %></li>
+
+    <li><%= image_tag(ingredient.image) %></li>
+    </ul>
+<% end %>
+</div>

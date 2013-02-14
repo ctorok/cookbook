@@ -1,0 +1,8 @@
+<%= link_to(@recipe.name, @recipe) %>
+  <% @recipe.ingredients.each do |ingredient| %>
+    <%= ingredient.name %>
+    <%= image_tag(ingredient.image) %>
+  <% end %>
+<br>
+<%= link_to 'Delete', @recipe, :method => :delete, :confirm => 'Really delete this ˝?' %>
+<%= link_to 'Edit', edit_recipe_path(@recipe) %>

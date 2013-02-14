@@ -1,0 +1,11 @@
+<h2>Books</h2>
+<div id='content'>
+<% @books.each do |book| %>
+  <ul>
+      <li>Title: <%= link_to book.title, book %></li>
+      <li>Cuisine: <%= book.cuisine %></li>
+      <li>Author: <%= book.chef %></li>
+      <li><%= image_tag(book.image) %></li>
+    </ul>
+<% end %>
+</div>

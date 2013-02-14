@@ -1,0 +1,15 @@
+<h2>Recipes</h2>
+<div id='content'>
+<% @recipes.each do |recipe| %>
+  <ul >
+    <div id='recipes_left' >
+      <li>Title: <%= link_to recipe.name, recipe %></li>
+      <li>Course: <%= recipe.course %></li>
+      <li>Cooktime: <%= recipe.cooktime %></li>
+      <li>Instructions: <%= recipe.instructions %></li>
+      <li>Serving size: <%= recipe.servingsize %></li>
+    </div>
+    <li><%= image_tag(recipe.image) %></li>
+    </ul>
+<% end %>
+</div>
